@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+    rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+    <div class="header">       
+        <div class="left"> 
+            <div>
+                <img class="logo_apple" src="images/apple.png">
+                <img class="logo_home" src="images/home.png">
+            </div>
+            <div class="logo"></div>
+            <div class="company">
+                <a href="#" class="link link__site">Корпоративный сайт</a>
+                <span class="company__coin">Холдинг Монетка</span>
+            </div>
+        </div>
+        
+        <div class="middle">    
+            <div class="menu">
+                <ul>
+                   <li class="menu__item menu__item_active">Каталог</li>
+                   <li class="menu__item"><a href=" " class="link__nav">Акции</a></li>
+                   <li class="menu__item"><a href=" " class="link__nav">Доставка</a></li>
+                   <li class="menu__item"><a href=" " class="link__nav">Обратная связь</a></li>
+               </ul>
+            </div>
+            <div class="search">
+                <input class="search__area" type="search" placeholder="Поиск по каталогу">
+                <input class="search__buttom" type="submit" value="Найти">
+            </div>
+            <div class="contact">
+                <div class="contact__phone">
+                    <span>Телефон:
+                    <span class="number">8 800 2000 600</span>
+                    </span>
+                </div>
+                <div class="contact__skype">
+                    <img class="icon" src="images/skype.png">
+                    <a href="#" class="link link__site">monetka</a>
+                </div>
+                <div class="contact__icq">
+                    <img class="icon" src="images/icq.png">
+                    <span>335-55-55</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="user">
+                <div class="user__auth">
+                    <a href="#" class="link link__nav">Войти</a> / 
+                    <a href="#" class="link link__nav">Регистрация</a>
+                </div>
+                <div class="user__basket">
+                    <span>В корзине:</span>
+                    <a href="#" class="link link__widget">300 товаров, 12 331 р.</a>
+                </div>
+               <button class="user__button">Перейти к оформлению</button>
+               <div class="user__rules">
+                   <a href="#" class="link">Условия доставки</a>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">  
+        <div class="filters">
+            <h2 class="filters__header">Каталог товаров</h2>
+            <div class="filters__switch">
+                <span class="filters__switch-label">Показать:</span>
+                <div class="switch">
+                   <div class="switch__element">Каталог</div>
+                   <div class="switch__element switch__element_active">Бренды</div>
+                   <code>
+                       clicking on '.switch' 
+                           toggles class 'switch__element_active' 
+                           on '.switch__element'
+                   </code>
+                </div>
+            </div>
+            <div class="filters__expand">
+                <a class="filters__expand-link" href="#">Развернуть</a>
+                <div class="circle-icon circle-icon_arrow">
+                    <div class="circle-icon__image"></div>
+                </div>
+            </div>
+        </div>
+        <div class="results__print">
+            <div class="filters__results">
+                <img src="images/cow.png">
+                <a class="filters__expand-link filters__expand-link_result" href="#">
+                Молочная продукция</a>
+                <div class="circle-icon circle-icon_arrow">
+                    <div class="circle-icon__image"></div>
+                </div>
+                <span class="right-arrow">→</span>
+                <a class="filters__expand-link filters__expand-link_result" href="#">
+                Сливочное масло</a>
+                <div class="circle-icon circle-icon_arrow">
+                    <div class="circle-icon__image"></div>
+                </div>
+            </div>
+            <div class="results__print-link">
+                <img src="images/print.png">
+                <a href="#">Версия для печати</a>
+            </div>
+        </div>
+        <div class="purchase__field">
+            <div class="purchase__field_description">
+                <img src="images/arrow-up.png">
+                <a class="company__coin "href="#">Все сливочные масла</a>
+                <h3 class="short__description-header">Масло сливочное,</br>крестьянское 72,5 %</h3>
+                <span>Масса: 250 грамм</span></br>
+                <span class="short__description">Бренд:</span><span>Простоквашино</span></br>
+                <span class="short__description">Поизводитель:</span><span>ООО "МЛ Трэйд"</span></br>
+                <span class="price" >105 &#8399;
+                    <sup class="price_discount">135 &#8399;</sup>    
+                </span>
+                <h4 class="full__description-header">Описание</h4>
+                <p class="full__description">Испанское красное сладкое вино "Дом Беренгер" 1918 года                   классификации D.O.C. крепостью 20%. Произодится из винограда: Гаранча. Можно пить                     сейчас или позже.
+                </p>
+                <p class="full__description">Общество потребления поразительно. Рекламная поддержка,                   отбрасывая подробности,
+                интегрирована. Медиабизнес без оглядки на авторитеты слабо переворачивает креатив,                   используя опыт предыдущих кампаний.
+                </p>
+                <a class="turn-link" href="#">Свернуть</a>
+            </div>
+            <div class="purchase__field_image">
+                <img class="image-large" src="images/butter.png">
+                <img class="image-label" src="images/action.png">
+                <div class="purchase__field_image-scroll">
+                    <img class="image-scroll" src="images/butter-small.png">
+                    <img class="image-scroll" src="images/butter-small.png">
+                    <img class="image-scroll" src="images/butter-small.png">
+                    <img class="image-scroll" src="images/butter-small.png">
+                    <img class="scroll-arrow" src="images/more-less.png">
+                </div>
+            </div>
+            <div class="purshase__field_prise">
+                <img class="field__amount sign" src="images/cross.png">
+                <div class="field__amount">
+                    <img class="field__amount arrow" src="images/greenarrow-up.png">
+                    <p class="field__amount square">37</p>
+                    <span class="short__description amount">упаковок</span>
+                    <img class="field__amount arrow" src="images/greenarrow-down.png">
+                </div>
+                <img class="field__amount sign" src="images/equally.png">
+                <span class="price" >25 105 &#8399;</span>
+                <button class="purchase__button">
+                    <img src="images/Еще.png">
+                </button>
+                <div class="purchase__result">
+                    <img src="images/basket.png">
+                    <a href="#">Перейти в корзину</a>
+                </div>
+            </div>
+        </div>
+        <div class="similar__goods">
+            <h2 class="similar__goods-header">Похожие товары</h2>
+            <img class="goods-scroll" src="images/goods.png">
+            <img class="goods-scroll" src="images/goods.png">
+            <img class="goods-scroll" src="images/goods.png">
+            <img class="goods-scroll" src="images/goods.png">
+            <img class="goods-scroll" src="images/goods.png">
+            <img class="goods-scroll" src="images/goods.png">
+        </div>
+        <div class="purchase__strip">
+           <img class="strip-arrow" src="images/left-arrow.png">
+           <img src="images/cards.png">
+           <img class="strip-arrow" src="images/right-arrow.png">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__left">
+            <span>&copy; 2003-2011 ООО "Элемент-Трейд"</span></br>
+            <a href="#">Информация</a></br>
+            <a href="#">Пользовательское соглашение</a>   
+        </div>
+        <div class="footer__middle">
+            <a class ="footer__link" href="#">Помощь</a>
+            <a class ="footer__link" href="#">Обратная связь</a>
+            <a class ="footer__link" href="#">Реклама на сайте</a></br>
+            <a class ="footer__link" href="#">О компании</a>
+            <a class ="footer__link" href="#">Реквизиты</a></br>
+            <a href="#"><img src="images/twitter(small).png" height=22px width=20px></a>
+            <a href="#"><img src="images/facebook(small).png" height=22px width=20px></a>
+            <a href="#"><img src="images/vk(small).png" height=22px width=20px></a>
+            <a href="#"><img src="images/livejournal(small).png" height=22px width=20px></a>
+        </div>
+        <div class="footer__right">
+            <span class="short__description">Служба поддержки:</span>
+            <span>8 800 2000 600</span></br>
+            <span>Разработано</span>
+            <img class="artsofte"src="images/artsofte.png">
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="scripts/uilang.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
